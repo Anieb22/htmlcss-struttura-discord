@@ -4,14 +4,20 @@
     box-sizing: border-box;
 }
 
+/*CLASSI UTILITY*/
 .contenitore{
-    width: 1710px;
+    width: 1410px;
     height: 80px;
     display: flex;
-    background-color: blueviolet;
     margin: auto;
 }
 
+.border-dotted{
+    border: 1px dashed black;
+}
+
+
+/*NAV*/
 .row30{
     width: 20%;
     height: 40px;
@@ -25,5 +31,9 @@
     height:40px;
     margin: auto;
     background-color: rgb(255, 217, 0);
-    border: 1px dashed black;
+    
+}
+
+nav{
+    background-color: #ADD8E6;
 }
