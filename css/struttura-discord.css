@@ -18,7 +18,12 @@
 
 
 /*NAV*/
-.row30{
+
+nav{
+    background-color: #ADD8E6;
+}
+
+.row20{
     width: 20%;
     height: 40px;
     margin: auto;
@@ -34,6 +39,14 @@
     
 }
 
-nav{
-    background-color: #ADD8E6;
+.testo-centrale{
+    text-align: center;
+}
+
+.testo-centrale, .testo-sinistro, .testo-destro{
+    padding: 10px;
+}
+
+.testo-destro{
+    text-align: end;
 }
