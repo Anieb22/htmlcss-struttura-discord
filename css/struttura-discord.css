@@ -7,7 +7,6 @@
 /*CLASSI UTILITY*/
 .contenitore{
     width: 1410px;
-    height: 80px;
     display: flex;
     margin: auto;
 }
@@ -21,6 +20,7 @@
 
 nav{
     background-color: #ADD8E6;
+    padding: 20px;
 }
 
 .row20{
@@ -50,3 +50,30 @@ nav{
 .testo-destro{
     text-align: end;
 }
+
+/*MAIN*/
+
+.background-blu, .background-grigio, .background-grigio-scuro{
+    padding: 50px;
+}
+
+.background-blu{
+    background-color: blue;
+}
+
+.background-grigio{
+    background-color: lightgray;
+}
+
+.background-grigio-scuro{
+    background-color: gray;
+}
+
+.quadro-fucsia{
+    background-color: fuchsia;
+    margin: auto;
+    width: 80%;
+    height: 400px;
+}
+
+ 
